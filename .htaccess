@@ -1,0 +1,10 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^admin/?$ admin/index.php [L]
+    RewriteRule ^user/?$ user/index.php [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^$ user/index.php [L]
+</IfModule>
