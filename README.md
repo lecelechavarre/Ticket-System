@@ -1,4 +1,4 @@
-# Ticketing System (PHP + MySQL + XAMPP)        
+# Ticketing System (PHP + MySQL + XAMPP)         
  
 ## 1) Requirements
 - XAMPP (Apache + MySQL)
