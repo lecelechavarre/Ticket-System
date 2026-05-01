@@ -1,5 +1,5 @@
 # Ticketing System (PHP + MySQL + XAMPP)           
-  
+   
 ## 1) Requirements
 - XAMPP (Apache + MySQL)
 - PHP 8.1+
